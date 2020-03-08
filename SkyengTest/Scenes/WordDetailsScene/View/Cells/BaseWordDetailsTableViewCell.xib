@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BaseWordCell" rowHeight="446" id="KGk-i7-Jjw" customClass="BaseWordDetailsTableViewCell" customModule="SkyengTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="446"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="446"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="uqM-ZV-0qm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="446"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Being of bad quality or of low standard" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PF2-7v-XUd">
+                                <rect key="frame" x="15" y="327.5" width="290" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mtS-iR-GJF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="277"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="277" id="5mL-dw-EDq"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0KT-fc-cg0">
+                                <rect key="frame" x="0.0" y="217" width="320" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="poor-quality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z86-Mp-Mug">
+                                        <rect key="frame" x="15" y="6" width="290" height="22"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="низкосортный" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6V-kB-Uys">
+                                        <rect key="frame" x="15" y="29" width="290" height="25"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Y6V-kB-Uys" secondAttribute="trailing" constant="15" id="6hH-0a-qgC"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y6V-kB-Uys" secondAttribute="bottom" constant="6" id="ANX-PB-X9l"/>
+                                    <constraint firstItem="z86-Mp-Mug" firstAttribute="leading" secondItem="0KT-fc-cg0" secondAttribute="leading" constant="15" id="B2L-qs-NjU"/>
+                                    <constraint firstAttribute="height" constant="60" id="Z4X-Tr-kaY"/>
+                                    <constraint firstAttribute="trailing" secondItem="z86-Mp-Mug" secondAttribute="trailing" constant="15" id="Zq5-JR-tnj"/>
+                                    <constraint firstItem="Y6V-kB-Uys" firstAttribute="top" secondItem="z86-Mp-Mug" secondAttribute="bottom" constant="1" id="qhE-RB-OHO"/>
+                                    <constraint firstItem="Y6V-kB-Uys" firstAttribute="leading" secondItem="0KT-fc-cg0" secondAttribute="leading" constant="15" id="sEN-xU-KqV"/>
+                                    <constraint firstItem="z86-Mp-Mug" firstAttribute="top" secondItem="0KT-fc-cg0" secondAttribute="top" constant="6" id="vX0-BL-nrs"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/ pʊəˌkwɒlɪti /" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lr-31-1ah">
+                                <rect key="frame" x="15" y="292" width="290" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The [poor-quality] photocopies." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaN-Fd-mn5">
+                                <rect key="frame" x="15" y="366" width="290" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The [poor-quality] raw materials" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pE-Mg-aBP">
+                                <rect key="frame" x="15" y="399" width="290" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9lr-31-1ah" secondAttribute="trailing" constant="15" id="3L3-1u-aer"/>
+                            <constraint firstItem="4pE-Mg-aBP" firstAttribute="top" secondItem="WaN-Fd-mn5" secondAttribute="bottom" constant="18.5" id="4eI-0G-Y7t"/>
+                            <constraint firstItem="9lr-31-1ah" firstAttribute="leading" secondItem="uqM-ZV-0qm" secondAttribute="leading" constant="15" id="6BY-Zl-Eam"/>
+                            <constraint firstItem="mtS-iR-GJF" firstAttribute="top" secondItem="uqM-ZV-0qm" secondAttribute="top" id="FWn-or-HiZ"/>
+                            <constraint firstItem="WaN-Fd-mn5" firstAttribute="top" secondItem="PF2-7v-XUd" secondAttribute="bottom" constant="19" id="GSt-Vh-2zC"/>
+                            <constraint firstAttribute="trailing" secondItem="4pE-Mg-aBP" secondAttribute="trailing" constant="15" id="J92-Hi-YDy"/>
+                            <constraint firstItem="4pE-Mg-aBP" firstAttribute="leading" secondItem="uqM-ZV-0qm" secondAttribute="leading" constant="15" id="JDh-ZK-VI0"/>
+                            <constraint firstAttribute="trailing" secondItem="PF2-7v-XUd" secondAttribute="trailing" constant="15" id="NmB-T2-h73"/>
+                            <constraint firstItem="0KT-fc-cg0" firstAttribute="bottom" secondItem="mtS-iR-GJF" secondAttribute="bottom" id="Pga-b6-cpP"/>
+                            <constraint firstAttribute="bottom" secondItem="4pE-Mg-aBP" secondAttribute="bottom" constant="32.5" id="W7W-hS-NSh"/>
+                            <constraint firstItem="PF2-7v-XUd" firstAttribute="leading" secondItem="uqM-ZV-0qm" secondAttribute="leading" constant="15" id="Wxy-Ix-wfq"/>
+                            <constraint firstAttribute="trailing" secondItem="WaN-Fd-mn5" secondAttribute="trailing" constant="15" id="d6T-uw-LFD"/>
+                            <constraint firstItem="PF2-7v-XUd" firstAttribute="top" secondItem="9lr-31-1ah" secondAttribute="bottom" constant="15" id="gA2-4M-BjU"/>
+                            <constraint firstItem="WaN-Fd-mn5" firstAttribute="leading" secondItem="uqM-ZV-0qm" secondAttribute="leading" constant="15" id="jmd-29-Iby"/>
+                            <constraint firstItem="0KT-fc-cg0" firstAttribute="leading" secondItem="mtS-iR-GJF" secondAttribute="leading" id="mhR-Od-7qA"/>
+                            <constraint firstItem="0KT-fc-cg0" firstAttribute="trailing" secondItem="mtS-iR-GJF" secondAttribute="trailing" id="qQF-Ed-xg5"/>
+                            <constraint firstItem="mtS-iR-GJF" firstAttribute="leading" secondItem="uqM-ZV-0qm" secondAttribute="leading" id="saF-Qf-nBF"/>
+                            <constraint firstItem="9lr-31-1ah" firstAttribute="top" secondItem="mtS-iR-GJF" secondAttribute="bottom" constant="15" id="t3S-zM-NyH"/>
+                            <constraint firstAttribute="trailing" secondItem="mtS-iR-GJF" secondAttribute="trailing" id="wj0-uj-l9f"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="uqM-ZV-0qm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0iW-rx-GXg"/>
+                    <constraint firstAttribute="trailing" secondItem="uqM-ZV-0qm" secondAttribute="trailing" id="DEO-l6-4OC"/>
+                    <constraint firstItem="uqM-ZV-0qm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Zb5-bG-Mmd"/>
+                    <constraint firstAttribute="bottom" secondItem="uqM-ZV-0qm" secondAttribute="bottom" id="cOv-Uv-Adv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="uqM-ZV-0qm" id="hwi-ze-Na9"/>
+                <outlet property="definitionLabel" destination="Y6V-kB-Uys" id="ZCp-KS-Sjg"/>
+                <outlet property="firstExampleLabel" destination="WaN-Fd-mn5" id="WGb-lI-xmj"/>
+                <outlet property="longDefinitionLabel" destination="PF2-7v-XUd" id="tIh-R2-b0K"/>
+                <outlet property="secondExampleLabel" destination="4pE-Mg-aBP" id="10T-76-CHU"/>
+                <outlet property="transcriptionLabel" destination="9lr-31-1ah" id="juT-ch-8b2"/>
+                <outlet property="wordLabel" destination="z86-Mp-Mug" id="Wun-S9-MPj"/>
+                <outlet property="wordPicture" destination="mtS-iR-GJF" id="p6u-GD-kHO"/>
+            </connections>
+            <point key="canvasLocation" x="-191.30434782608697" y="204.24107142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_SkyengTest {
+  umbrella header "Pods-SkyengTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
