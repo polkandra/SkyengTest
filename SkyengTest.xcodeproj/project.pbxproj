@@ -38,6 +38,7 @@
 		AD05D56C240FC0770068D47E /* WordSearchMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05D56B240FC0770068D47E /* WordSearchMapper.swift */; };
 		C68507A1241521F200EA0639 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68507A0241521F200EA0639 /* UIColor+Extension.swift */; };
 		C68507A32415241100EA0639 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68507A22415241100EA0639 /* AppStyle.swift */; };
+		C68507B0241674A900EA0639 /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68507AF241674A900EA0639 /* UISearchBar+Extension.swift */; };
 		C692FA5B24125C7700DE2F56 /* WordMeaningDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C692FA5A24125C7700DE2F56 /* WordMeaningDTO.swift */; };
 		C692FA632412654400DE2F56 /* WordDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C692FA5E2412654400DE2F56 /* WordDetailsViewController.xib */; };
 		C692FA642412654400DE2F56 /* WordDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C692FA5F2412654400DE2F56 /* WordDetailsViewController.swift */; };
@@ -102,6 +103,7 @@
 		AD05D56B240FC0770068D47E /* WordSearchMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchMapper.swift; sourceTree = "<group>"; };
 		C68507A0241521F200EA0639 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C68507A22415241100EA0639 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		C68507AF241674A900EA0639 /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
 		C692FA5A24125C7700DE2F56 /* WordMeaningDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordMeaningDTO.swift; sourceTree = "<group>"; };
 		C692FA5E2412654400DE2F56 /* WordDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordDetailsViewController.xib; sourceTree = "<group>"; };
 		C692FA5F2412654400DE2F56 /* WordDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordDetailsViewController.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				AD05D537240FB4D30068D47E /* UIImageView+Extension.swift */,
 				AD05D539240FB4F70068D47E /* UIViewController+Extension.swift */,
 				C68507A0241521F200EA0639 /* UIColor+Extension.swift */,
+				C68507AF241674A900EA0639 /* UISearchBar+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -673,6 +676,7 @@
 				C692FA642412654400DE2F56 /* WordDetailsViewController.swift in Sources */,
 				AD05D50A240FA3780068D47E /* AppDelegate.swift in Sources */,
 				AD05D560240FBF860068D47E /* ParameterEncoding.swift in Sources */,
+				C68507B0241674A900EA0639 /* UISearchBar+Extension.swift in Sources */,
 				C68507A32415241100EA0639 /* AppStyle.swift in Sources */,
 				C692FA732412890600DE2F56 /* BaseCoordinator.swift in Sources */,
 				AD05D544240FB6420068D47E /* SearchBar.swift in Sources */,

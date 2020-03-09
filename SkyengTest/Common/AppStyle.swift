@@ -10,8 +10,16 @@ class AppStyle {
             coloredAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
             coloredAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
             
+            UINavigationBar.appearance().tintColor = .white
             UINavigationBar.appearance().standardAppearance = coloredAppearance
             UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
+            coloredAppearance.setBackIndicatorImage(#imageLiteral(resourceName: "back"), transitionMaskImage: #imageLiteral(resourceName: "back"))
+            
+            let backButtonAppearence = UIBarButtonItemAppearance()
+            let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.clear]
+            backButtonAppearence.normal.titleTextAttributes = titleTextAttributes
+            backButtonAppearence.highlighted.titleTextAttributes = titleTextAttributes
+            coloredAppearance.backButtonAppearance = backButtonAppearence
         }
     }
     

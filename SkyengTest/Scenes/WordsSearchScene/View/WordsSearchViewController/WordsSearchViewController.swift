@@ -50,6 +50,13 @@ class WordsSearchViewController: UIViewController {
         searchBar.searchTextField.backgroundColor = .white
         searchBar.searchTextField.textColor = .black
         
+        let textFieldInsideUISearchBar = searchBar.value(forKey: "searchField") as? UITextField
+        let textFieldInsideUISearchBarLabel = textFieldInsideUISearchBar!.value(forKey: "placeholderLabel") as? UILabel
+        textFieldInsideUISearchBarLabel?.font = AppStyle.tableFont
+        
+  
+        searchBar.becomeFirstResponder()
+        
         tableView.isHidden = true
     }
     
